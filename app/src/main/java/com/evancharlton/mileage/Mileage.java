@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.view.View;
 
 public class Mileage extends TabActivity {
     public static final String VISIBLE_TAB = "visible_tab";
@@ -76,6 +77,10 @@ public class Mileage extends TabActivity {
         add(menu, R.string.settings, SettingsActivity.class)
                 .setIcon(R.drawable.ic_menu_preferences);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void menuOnClick(View v) {
+        this.openOptionsMenu();
     }
 
     private final MenuItem add(final Menu menu, final int string,

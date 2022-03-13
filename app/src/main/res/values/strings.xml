@@ -10,6 +10,7 @@
 	<string name="cost_unit_price">Total cost, unit price</string>
 	
 	<string name="vehicles">Vehicles</string>
+	<string name="main_menu_btn">&#x22EE;</string>
 	<string name="service_intervals">Service intervals</string>
 	<string name="save_changes">Save changes</string>
 	<string name="add_service_interval">Add service interval</string>
